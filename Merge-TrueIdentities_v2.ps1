@@ -48,7 +48,7 @@
 [CmdLetBinding()]
 param( 
 	[string] $ApiUrl = "http://localhost:8505/lr-admin-api/",
-	[string] $ApiKey = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOi0xMDAsImp0aSI6IjVhZWQ1MmYxLWFlYzYtNGY0Ni1iMTUzLWI1ZTU0NDk0OTcyMCIsImNpZCI6IkM5NkZDNzYyLTIxMDAtNERGRC1BNEUzLTQ4NTZGRjc3NEQ3MSIsImlzcyI6ImxyLWF1dGgiLCJyaWQiOiJnbG9iYWxBZG1pbiIsInBpZCI6LTEwMCwic3ViIjoiTG9nUmh5dGhtQWRtaW4iLCJleHAiOjE1Nzk5NjYyNTMsImRlaWQiOjEsImlhdCI6MTU0ODQzMDI1M30.BEOZ5YrvgaivM7WMymF_MyHKMwXRDEX9CDLJB79qxA4P_iQIJ_Rz_g4GMDVBeb9Y0r1uB3tLhoT4xlZ7EcZNWl1J0XIEbwfGMWjlsDb6L8FUJReSHmCHHL7lcPKdjoI76xVLG255S3loAhUCxCUlPub-gUSrSueCP3CIDpEdPGarqbgtAJN-pkHVkL9L9YS4HlcrRMlpBsKlgFcwzX4O_GLSePOSC0EbN2YC2ccibiA-WzLUXFeuSIM1UC9F_7dTvcmgW32u8OamWMPiwvpXV8nHIQpGSpL31z2_01lYLW45rEgK_Z_uEV2nBviZBkWpGwgCY3fHc5bKrr4XjuOn6w",
+	[string] $ApiKey = "",
 	[long] $PrimaryIdentityId,
 	[long] $SecondaryIdentityId,
 	[int] $LeadingWhitespace = 0,
